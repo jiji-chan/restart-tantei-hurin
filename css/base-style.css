@@ -1,0 +1,146 @@
+/********************
+
+  基本的には触らないCSS　
+
+*********************/
+
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    min-width: 750px;/*画像サイズ&レスポンシブ開始サイズ*/
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    -webkit-text-size-adjust: none;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-feature-settings: 'palt';
+    color: #000;
+}
+
+.rapper{
+    width: 100%;
+}
+
+.img{
+    width: 100%;
+    background-position-x: center;
+}
+
+.sp-img{
+    display: block;
+    width: 100%;
+}
+.pc-img{
+    display: none;
+    width: 100%;
+    background-position-x: center;
+}
+.sp-br{
+    display: none;
+}
+.cta-area1,
+.cta-area2,
+.cta-area3{
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.btn-img{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 0;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    filter:drop-shadow(3px 3px 5px #bbb);
+}
+.btn-img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.btn-img-dark{
+    position: absolute;
+    width: 650px;
+    left: 275px;
+    top: 0;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    filter:drop-shadow(3px 3px 5px #091b49);
+}
+
+Footer{
+    padding: 20px 0;
+    line-height: 1.25;
+    background-color: #555555;
+    color: #fdfdfd;
+}
+
+Footer .btn-img{
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 50px;
+}
+Footer a{
+    color: #fdfdfd;
+    font-size: 1.5rem;
+    line-height: 2.5;
+}
+.footer-flex{
+    display: flex;
+    justify-content: center;
+}
+.footer-flex p{
+    padding-left: 18px;
+}
+.footer-flex p:first-child {
+    padding-left: 0px;
+}
+
+.Copyright{
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width: 751px){
+    body{
+        width: 100%;
+        /* min-width: 1100px; /*画像サイズ&レスポンシブ開始サイズ*/
+    }
+    .rapper{
+        width: 100%;
+        height: 100%;
+        min-width: 1100px; /*画像サイズ&レスポンシブ開始サイズ*/
+        max-width: initial;
+        margin: 0px;
+        padding: 0px;
+    }
+    .pc-img{
+        display: block;
+    }
+    .sp-img{
+        display: none;
+    }
+    .sp-br{
+        display: block;
+    }
+    .btn-img{
+        width: 40%;
+        left: 30%;
+    }
+}

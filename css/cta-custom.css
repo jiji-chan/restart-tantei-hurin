@@ -1,0 +1,116 @@
+/********************
+
+  ctaエリアの設定を行うCSS　
+
+*********************/
+
+@charset "utf-8";
+
+/*ボタン拡大・縮小1*/
+/*sp用*/
+.cta-area1 {
+    position: relative;
+    background: url("../img/CTA_btn_area_sp.jpg");
+    height: 350px;
+}
+.btn-area1 {
+    position: relative;
+    display: block;
+    top: 150px; /*ボタン位置の高さ*/
+    width: 670px; /*エリアの範囲（ボタンのサイズ）*/
+    margin: 0 auto; /*中央寄せ*/
+}
+.cta-area1 .btn-img{
+    position: relative;
+    width: 670px; /*ボタンのサイズ*/
+    left: 0; /*位置調整*/
+    filter:drop-shadow(3px 3px 5px #bbb); /*ドロップシャドー*/
+}
+
+/*pc用*/
+@media screen and (min-width: 751px) {
+    .cta-area1 {
+        background: url("../img/CTA_btn_area_pc.png")no-repeat top center;
+        height: 478px;
+    }
+    .btn-area1 {
+        top: 220px; /*ボタン位置の高さ*/
+        width: 750px; /*エリアの範囲（ボタンのサイズ）*/
+    }
+    .cta-area1 .btn-img {
+        width: 750px;
+        left: 0%;
+    }
+}
+
+/*ボタン拡大・縮小2*/
+/*sp用*/
+.cta-area2{
+    position: relative;
+    background: url("../img/CTA_btn_area_sp.jpg");
+    height: 350px;
+}
+.btn-area2 {
+    position: relative;
+    top: 155px; /*ボタン位置の高さ*/
+    width: 670px; /*エリアの範囲（ボタンのサイズ）*/
+    margin: 0 auto; /*中央寄せ*/
+}
+.cta-area2 .btn-img{
+    position: relative;
+    width: 670px; /*ボタンのサイズ*/
+    left: 0; /*位置調整*/
+    filter:drop-shadow(3px 3px 5px #bbb);
+}
+
+/*pc用*/
+@media screen and (min-width: 751px) {
+    .cta-area2 {
+        background: url("../img/CTA_btn_area_pc.png") no-repeat top center;
+        height: 478px;
+    }
+    .btn-area2 {
+        top: 220px; /*ボタン位置の高さ*/
+        width: 750px; /*エリアの範囲（ボタンのサイズ）*/
+    }
+    .cta-area2 .btn-img {
+        width: 750px;
+        left: 0;
+    }
+}
+
+/*ボタン拡大・縮小3*/
+/*sp用*/
+.cta-area3{
+    position: relative;
+    background: url("../img/CTA_btn_area_sp.jpg");
+    height: 350px;
+}
+.btn-area3 {
+    position: relative;
+    top: 155px; /*ボタン位置の高さ*/
+    width: 670px; /*エリアの範囲（ボタンのサイズ）*/
+    margin: 0 auto; /*中央寄せ*/
+}
+.cta-area3 .btn-img{
+    position: relative;
+    width: 670px; /*ボタンのサイズ*/
+    left: 0; /*位置調整*/
+    filter:drop-shadow(3px 3px 5px #bbb);
+}
+
+/*pc用*/
+@media screen and (min-width: 751px) {
+    .cta-area3 {
+        background: url("../img/CTA_btn_area_pc.png") no-repeat top center;
+        height: 478px;
+    }
+    .btn-area3 {
+        top: 220px; /*ボタン位置の高さ*/
+        width: 750px; /*エリアの範囲（ボタンのサイズ）*/
+    }
+    .cta-area3 .btn-img {
+        width: 750px;
+        left: 0%;
+    }
+}

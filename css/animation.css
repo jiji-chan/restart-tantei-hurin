@@ -1,0 +1,171 @@
+/********************
+
+  基本的には触らないCSS　
+
+*********************/
+
+@charset "utf-8";
+
+/*拡大・縮小繰り返し1*/
+.btn-Anim1 {
+    animation:btn-anim ease-in-out 1s infinite alternate;
+    -webkit-animation:btn-anim ease-in-out 1s infinite alternate;
+    -moz-animation:btn-anim ease-in-out 1s infinite alternate;
+    -ms-animation: btn-anim ease-in-out 1s infinite alternate;
+    -o-animation: btn-anim ease-in-out 1s infinite alternate;
+    }
+
+    @keyframes btn-anim{
+      0% {
+        transform: scale(1,1);
+      }
+
+      100% {
+        transform: scale(1.1,1.1);
+      }
+    }
+    @-webkit-keyframes btn-anim{
+      0% {
+        transform: scale(1,1);
+      }
+
+      100% {
+        transform: scale(1.1,1.1);
+      }
+    }
+    @-moz-keyframes btn-anim{
+      0% {
+        transform: scale(1,1);
+      }
+
+      100% {
+        transform: scale(1.1,1.1);
+      }
+    }
+    @-ms-keyframes btn-anim{
+      0% {
+        transform: scale(1,1);
+      }
+
+      100% {
+        transform: scale(1.1,1.1);
+      }
+    }
+    @-o-keyframes btn-anim{
+      0% {
+        transform: scale(1,1);
+      }
+
+      100% {
+        transform: scale(1.1,1.1);
+      }
+    }
+
+/*拡大・縮小繰り返し2*/
+.btn-Anim2 {
+    animation:btn-anim ease-in-out 1s infinite alternate;
+    -webkit-animation:btn-anim ease-in-out 1s infinite alternate;
+    -moz-animation:btn-anim ease-in-out 1s infinite alternate;
+    -ms-animation: btn-anim ease-in-out 1s infinite alternate;
+    -o-animation: btn-anim ease-in-out 1s infinite alternate;
+    }
+
+    @keyframes btn-anim{
+      0% {
+        transform: scale(1,1);
+      }
+
+      100% {
+        transform: scale(1.02,1.02);
+      }
+    }
+    @-webkit-keyframes btn-anim{
+      0% {
+        transform: scale(1,1);
+      }
+
+      100% {
+        transform: scale(1.02,1.02);
+      }
+    }
+    @-moz-keyframes btn-anim{
+      0% {
+        transform: scale(1,1);
+      }
+
+      100% {
+        transform: scale(1.02,1.02);
+      }
+    }
+    @-ms-keyframes btn-anim{
+      0% {
+        transform: scale(1,1);
+      }
+
+      100% {
+        transform: scale(1.02,1.02);
+      }
+    }
+    @-o-keyframes btn-anim{
+      0% {
+        transform: scale(1,1);
+      }
+
+      100% {
+        transform: scale(1.02,1.02);
+      }
+    }
+/*拡大・縮小繰り返し3*/
+.btn-Anim3 {
+    animation:btn-anim ease-in-out 1s infinite alternate;
+    -webkit-animation:btn-anim ease-in-out 1s infinite alternate;
+    -moz-animation:btn-anim ease-in-out 1s infinite alternate;
+    -ms-animation: btn-anim ease-in-out 1s infinite alternate;
+    -o-animation: btn-anim ease-in-out 1s infinite alternate;
+    }
+
+    @keyframes btn-anim{
+      0% {
+        transform: scale(1,1);
+      }
+
+      100% {
+        transform: scale(1.05,1.05);
+      }
+    }
+    @-webkit-keyframes btn-anim{
+      0% {
+        transform: scale(1,1);
+      }
+
+      100% {
+        transform: scale(1.05,1.05);
+      }
+    }
+    @-moz-keyframes btn-anim{
+      0% {
+        transform: scale(1,1);
+      }
+
+      100% {
+        transform: scale(1.05,1.05);
+      }
+    }
+    @-ms-keyframes btn-anim{
+      0% {
+        transform: scale(1,1);
+      }
+
+      100% {
+        transform: scale(1.05,1.05);
+      }
+    }
+    @-o-keyframes btn-anim{
+      0% {
+        transform: scale(1,1);
+      }
+
+      100% {
+        transform: scale(1.05,1.05);
+      }
+    }

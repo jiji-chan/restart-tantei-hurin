@@ -1,0 +1,16 @@
+/********************
+
+  スライスした画像を入れるCSS　
+
+*********************/
+@charset "utf-8";
+
+.section1 {
+    background: url("../img/sp-1.jpg");
+    height: 13120px;
+}
+.section2{
+    background: url("../img/sp-2.jpg");
+    height: 13735px;
+}
+
